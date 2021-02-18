@@ -30,7 +30,7 @@ for i in enumerate(dnslist):
 		pass
 
 f_good = open("good_domains_"+sys.argv[1]+"_result.txt","w")
-f_bad = open(sys.argv[1]+"bad_domains_"+sys.argv[1]+"_result.txt","w")
+f_bad = open("bad_domains_"+sys.argv[1]+"_result.txt","w")
 
 for i in dns_and_ip:
 			word = i
